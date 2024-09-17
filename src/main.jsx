@@ -6,11 +6,13 @@ import App from "./App";
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
+import Error from "./Error";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <Error />,
     children: [
       {
         element: <Home />,

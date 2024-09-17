@@ -1,0 +1,19 @@
+#root {
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  margin: 0;
+  width: 100%;
+  padding: 10px 0 40px 0;
+}
